@@ -1,0 +1,30 @@
+body{
+    background-color: #E9FAFD;
+    font-family: roboto;
+    color: #2A4652;
+}
+
+.custom-bg {
+    background-image: url('/images/homepage/docimg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#menu-toggle:checked ~ .dropdown{
+        display: flex;
+    }
+
+@media (max-width: 428px){
+    .sec2{
+        font-size: 0.3vw;
+        gap: 100px;
+        height: 1150px;
+    }
+}
+
+@media (max-width: 770px){
+    .phone1{
+        height: 1000px;
+    }
+}
+

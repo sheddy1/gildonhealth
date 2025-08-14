@@ -1,0 +1,11 @@
+@section('about')
+    <div class="relative w-full h-300 flex flex-col justify-center items-center">
+        <p class="text-3xl font-bold text-[#2A4652]">
+            About Gildon Health
+        </p>
+
+        <p class="text-xl text-[#2A4652]">
+            Gildon Health is dedicated to providing affordable and accessible healthcare solutions to individuals and families.
+        </p>
+    </div>
+@endsection

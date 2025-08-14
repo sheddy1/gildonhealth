@@ -1,0 +1,14 @@
+*{
+    background-color: #E9FAFD;
+    font-family: roboto;
+}
+
+.custom-bg {
+    background-image: url('/images/homepage/docimg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#menu-toggle:checked ~ .dropdown{
+        display: flex;
+    }

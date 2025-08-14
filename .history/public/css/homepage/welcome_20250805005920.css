@@ -1,0 +1,35 @@
+body{
+    background-color: #E9FAFD;
+    font-family: roboto;
+}
+
+ul a{
+    color: #2A4652;
+    text-decoration: none;
+}
+
+ul li{
+
+    margin: 0 0px;
+    line-height: 0px;
+}
+
+ul li a:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 15%;
+    background: #2A4652;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .4s linear;
+}
+
+ul li a:hover:before{
+    transform-origin: left;
+    transform: scaleX(1);
+
+}
+
