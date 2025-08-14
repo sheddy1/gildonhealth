@@ -9,7 +9,7 @@
                     <img src="{{ asset('images/homepage/logo1.png') }}"
                     class=" h-[100%]" alt="">
 
-                    <p class="text-3xl font-bold text-[#FED077]">
+                    <p class="text-2xl font-bold text-[#FED077]">
                         Gildon Health
                     </p>
                 </span>
