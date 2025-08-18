@@ -14,7 +14,6 @@
 
 @include('homepage.footer')
 
-@vite('resources/css/app.css')
 
 <!DOCTYPE html>
 <html lang="en">
