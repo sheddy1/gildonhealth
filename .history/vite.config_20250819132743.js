@@ -7,11 +7,9 @@ export default defineConfig({
       input: ['resources/css/app.css', 'resources/js/app.js'],
       refresh: true,
     }),
-    tailwindcss(),
   ],
   build: {
-    outDir: 'public/build',
-    emptyOutDir: true,
+    outDir: 'public/build',   // tell Vite to put files here
+    emptyOutDir: true,        // clear old build files before new build
   },
 })
-

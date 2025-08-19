@@ -4,14 +4,10 @@
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
-    "routes": [
-        { "src": "/(.*)", "dest": "/public/$1" }
-    ],
-    "builds": [
-    { "src": "vite.config.js", "use": "@vercel/static-build" },
-    { "src": "public/**", "use": "@vercel/static" }
-  ],
-
+    "routes": [{
+        "src": "/(.*)",
+        "dest": "/api/index.php"
+    }],
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
