@@ -1,0 +1,15 @@
+@section('header')
+    <div class="w-full h-130 hidden md:flex lg:flex bg-blue-500 flex justify-center items-center">
+        <span class="w-[97%] h-10 bg-blue-400">
+            <span class=" flex justify-left items-center gap-[5%]
+            w-full h-7" >
+                <img src="{{ asset('images/homepage/logo2.png') }}"
+                    class=" h-[100%]" alt="">
+
+                <p class="text-3xl font-bold">
+                    Gildon Health
+                </p>
+            </span>
+        </span>
+    </div>
+@endsection

@@ -1,7 +1,7 @@
 @section('header')
     <div class="w-full h-130 hidden md:flex lg:flex bg-blue-500 flex justify-center items-center">
-        <span class="custom-bg w-[97%] h-10 bg-blue-400 flex justify-center items-center">
-            <span class="mr-auto flex justify-left items-center gap-3
+        <span class="w-[97%] h-10 bg-blue-400 flex justify-center items-center gap-140">
+            <span class=" flex justify-left items-center gap-3
             h-7" >
                 <img src="{{ asset('images/homepage/logo1.png') }}"
                     class=" h-[100%]" alt="">
