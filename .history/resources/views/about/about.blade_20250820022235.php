@@ -1,0 +1,5 @@
+@section('about')
+    <div class="w-[97%] h-100 bg-blue-500 flex justify-center items-center gap-[8%]">
+        asasa
+    </div>
+@endsection

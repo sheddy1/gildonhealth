@@ -1,0 +1,12 @@
+body{
+    background-color: #E9FAFD;
+    font-family: roboto;
+    color: #2A4652;
+    font-weight: bold;
+}
+
+.custom-bg {
+    background-image: url('/images/about/bg.png');
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,25 @@
+@section('hero')
+    <div class=" relative custombg w-[97%] h-110 hidden md:flex lg:flex bg-blue-500 rounded-lg
+    flex justify-center items-center custom-bg flex-col text-[#FED077]">
+        <span class="h-[80%] w-[40%] flex flex-col gap-7
+        absolute left-[5%]">
+            <p class="lg:text-[35px] md:text-[25px] font-bold">
+                We Are Looking For Skilled
+                Medical Professionals
+            </p>
+
+            <p class="lg:text-[25px] md:text-[20px]">
+                Join our growing team of licensed doctors, nurses, and
+                healthcare experts as we deliver quality care through our
+                online platform. If you’re passionate about patient care
+                and innovation, we’d love to hear from you!
+            </p>
+        </span>
+
+    </div>
+
+    <div class="custombg w-[90%] h-80 flex md:hidden lg:hidden bg-blue-500 rounded-lg
+    flex justify-center items-center custom-bg flex-col text-[#FED077]">
+
+    </div>
+@endsection

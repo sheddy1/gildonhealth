@@ -1,0 +1,10 @@
+body{
+    background-color: #E9FAFD;
+    font-family: roboto;
+    color: #2A4652;
+    background-color: red;
+}
+
+#menu-toggle:checked ~ .dropdown{
+    display: flex;
+}

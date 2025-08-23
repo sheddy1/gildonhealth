@@ -1,0 +1,21 @@
+body{
+    background-color: #E9FAFD;
+    font-family: roboto;
+    color: #2A4652;
+}
+
+.custom-bg {
+    background-image: url('/images/about/bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.custombg1 {
+    background-image: url('/images/about/bg1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#menu-toggle:checked ~ .dropdown{
+    display: flex;
+}
