@@ -8,8 +8,8 @@ Route::get('/', function () {
 
 Route::get('/about', function () {
     return view('pages.about');
-})->name('about');
+});
 
 Route::get('/careers', function () {
     return view('pages.careers');
-})->name('careers');
+});

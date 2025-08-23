@@ -12,4 +12,4 @@ Route::get('/about', function () {
 
 Route::get('/careers', function () {
     return view('pages.careers');
-})->name('careers');
+})->name('about');

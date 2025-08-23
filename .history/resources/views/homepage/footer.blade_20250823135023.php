@@ -179,15 +179,15 @@
             <br>
 
             <p class="text-xl">
-                <a href="{{ route('welcome') }}">Home</a>
+                Home
             </p>
 
             <p class="text-xl">
-                <a href="{{ route('about') }}">About</a>
+                About
             </p>
 
             <p class="text-xl">
-                <a href="{{ route('careers') }}">Careers</a>
+                Careers
             </p>
 
             <p class="text-xl">

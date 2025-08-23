@@ -83,7 +83,7 @@
                     class="w-8 h-[100%] flex justify-end items-end" alt="Logo">
 
                     <p class="text-[#2A4652] text-2xl">
-                        <a href="{{ route('careers') }}">Careers</a>
+                        <a href="{{ route('careers') }}"></a>
                     </p>
                 </span>
 

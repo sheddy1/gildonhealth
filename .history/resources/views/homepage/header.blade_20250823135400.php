@@ -48,7 +48,7 @@
                     <li><a class="font-bold" href="{{ route('welcome') }}">Home</a></li>
                     <li><a href="{{ route('about') }}">About</a></li>
                     <li><a href="{{ route('careers') }}">Careers</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="">Contact Us</a></li>
                 </ul>
             </span>
 

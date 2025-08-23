@@ -64,9 +64,7 @@
                     <img src="{{ asset('images/homepage/home.png') }}"
                     class="w-8 h-[100%] flex justify-end items-end" alt="Logo">
 
-                    <p class="text-[#2A4652] text-2xl">
-                        <a href="{{ route('welcome') }}">Home</a>
-                    </p>
+                    <p class="text-[#2A4652] text-2xl">Home</p>
                 </span>
 
                 <span class="h-6 w-full flex justify-center items-center gap-3">
@@ -82,9 +80,7 @@
                     <img src="{{ asset('images/homepage/career.png') }}"
                     class="w-8 h-[100%] flex justify-end items-end" alt="Logo">
 
-                    <p class="text-[#2A4652] text-2xl">
-                        <a href="{{ route('careers') }}">Careers</a>
-                    </p>
+                    <p class="text-[#2A4652] text-2xl">Careers</p>
                 </span>
 
                 <span class="h-6 w-full flex justify-center items-center gap-3">
