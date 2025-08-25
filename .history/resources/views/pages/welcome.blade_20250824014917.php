@@ -26,8 +26,6 @@
     <link rel="icon" href="{{ asset('images/homepage/logo1.png') }}">
     <link rel="stylesheet" href="{{ asset('css/homepage/header.css') }}">
     <link rel="stylesheet" href="{{ asset('css/homepage/welcome.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-
 </head>
 <body>
     <div class=" flex flex-col gap-[50px] justify-center items-center">
